@@ -15,7 +15,7 @@
 
 Welcome to the new home of our Feature Flagging Guide.
 
-LaunchDarkly serves 4 billion feature flags daily to help software teams build better software, faster. LaunchDarkly gives you the power to separate feature rollout from code deployment and manage feature flags at scale. Ultimately, you can deliver faster, more personalized software with less risk.
+LaunchDarkly serves 5 billion feature flags daily to help software teams build better software, faster. LaunchDarkly gives you the power to separate feature rollout from code deployment and manage feature flags at scale. Ultimately, you can deliver faster, more personalized software with less risk.
 
 ## About LaunchDarkly
 
@@ -24,10 +24,14 @@ LaunchDarkly is a continuous delivery platform that provides feature flags as a 
 * Roll out a new feature to a subset of your users (like a group of users who opt-in to a beta tester group), gathering feedback and bug reports from real-world use cases.
 * Gradually roll out a feature to an increasing percentage of users, and track the effect that the feature has on key metrics (for instance, how likely is a user to complete a purchase if they have feature A versus feature B?).
 * Turn off a feature that you realize is causing performance problems in production, without needing to re-deploy, or even restart the application with a changed configuration file.
-* Grant access to certain features based on user attributes, like payment plan (eg: users on the ‘gold’ plan get access to more features than users in the ‘silver’ plan). Disable parts of your application to facilitate maintenance, without taking everything offline.
+* Grant access to certain features based on user attributes, like payment plan (eg: users on the ‘gold’ plan get access to more features than users in the ‘silver’ plan). 
+* Disable parts of your application to facilitate maintenance, without taking everything offline.
 
 LaunchDarkly provides feature flag SDKs for
 * [Java](http://docs.launchdarkly.com/docs/java-sdk-reference)
+* [C/C++](http://docs.launchdarkly.com/docs/c-server-sdk-reference)
+* [C/C++](http://docs.launchdarkly.com/docs/c-server-sdk-reference)
+* [Haskell](http://docs.launchdarkly.com/docs/haskell-server-sdk-reference)
 * [JavaScript](http://docs.launchdarkly.com/docs/js-sdk-reference)
 * [PHP](http://docs.launchdarkly.com/docs/php-sdk-reference)
 * [Python](http://docs.launchdarkly.com/docs/python-sdk-reference)
@@ -38,6 +42,13 @@ LaunchDarkly provides feature flag SDKs for
 * [Python Twisted](http://docs.launchdarkly.com/docs/python-twisted-sdk-reference)
 * [iOS](http://docs.launchdarkly.com/docs/ios-sdk-reference)
 * [Android](http://docs.launchdarkly.com/docs/android-sdk-reference)
+* [Electron](http://docs.launchdarkly.com/docs/electron-sdk-reference)
+* [iOS (Objective-C)](http://docs.launchdarkly.com/docs/ios-objc-sdk-reference)
+* [iOS (Swift)](http://docs.launchdarkly.com/docs/ios-sdk-reference)
+* [React](http://docs.launchdarkly.com/docs/react-sdk-reference)
+* [React Native](http://docs.launchdarkly.com/docs/react-native-sdk-reference)
+* [Roku](http://docs.launchdarkly.com/docs/roku-sdk-reference)
+* [Xamarin](http://docs.launchdarkly.com/docs/Xamarin-sdk-reference)
 
 Many of the specific uses for LaunchDarkly’s features are covered within the [uses](https://github.com/launchdarkly/featureflags/blob/master/2%20-%20Uses.md) section of our guide, although we recommend you start with the [first chapter](https://github.com/launchdarkly/featureflags/blob/master/1%20-%20Introduction.md) for a comprehensive overview. For other questions, technical or otherwise, feel free to visit our site’s [FAQ](https://launchdarkly.com/faq.html) or our [support page](https://support.launchdarkly.com/)!
 
@@ -66,4 +77,4 @@ Our guide and SDKs are all open source, and we encourage pull-requests and other
 
 When contributing please ensure that you do the following:
  1. Read through our [Contributor’s Guide](http://docs.launchdarkly.com/docs/sdk-contributors-guide) before submitting any SDK pull requests.
- 2. Create a new branch for each different change.
+ 2. Create a new branch for each different change. Thank you!
