@@ -15,7 +15,7 @@
 
 Welcome to the new home of our Feature Flagging Guide.
 
-LaunchDarkly serves 5 billion feature flags daily to help software teams build better software, faster. LaunchDarkly gives you the power to separate feature rollout from code deployment and manage feature flags at scale. Ultimately, you can deliver faster, more personalized software with less risk.
+LaunchDarkly serves 2 trillion feature flags daily to help software teams build better software, faster. LaunchDarkly gives you the power to separate feature rollout from code deployment and manage feature flags at scale. Ultimately, you can deliver faster, more personalized software with less risk.
 
 ## About LaunchDarkly
 
